@@ -1,0 +1,28 @@
+Command Injection 
+Tools :  Commix
+#    Cmdi
+#    suppoert php code injection
+    
+
+Tools:  Backslash powered scanner - BURP Extension
+    
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Commix :
+(exploit command injection)
+
+commix --url="http://acme/example.php?order=id"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Backslash Powered scanner
+
+- generic payloads for any stack
+   → Send a ' get an error
+   → send a \' and the backslash escapes you injection characted
+- Multi-tieredd, simple and effective response analysig
+   → response code
+   → response size
+   → keywords
+- Video on:
+   → https://broadcast.comdi.com/r7rwcspee75eewbu8aof
+- http://blog.portswigger.net/2016/11/backslash-powered-scanning-hunting.html
