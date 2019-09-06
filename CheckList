@@ -1,0 +1,114 @@
+### 
+Check List of vulnerabilities to look for during the engagement
+##
+1. Configuration Review
+☐ Basic Server Configuration
+   ☐ Server Fingerprinting
+   ☐ Default Banner
+   ☐ OPTIONS Header enabled
+   ☐ TRACE Method enabled
+   ☐ Default Error pages 
+☐ Analyze request and response from app
+☐ Sensitive information pages on server
+☐ Check Directory listing
+☐ Verbose Error Messages
+☐ Default admin interfaces
+☐ SSL Check
+☐  Ip Address Leaks
+☐ Proxy Present
+☐ robots.txt
+☐ Autocomplete Enabled
+☐ Oracle Padding (check_patch.pl)
+
+2. Application Study
+☐ Analyze GET/POST/PUT/DELETE
+☐ Check ObjectID, SessionID in GET request
+☐ Replace methods (GET->  POST, POST->GET)
+☐ Identify all Inputs 
+   ☐ Search 
+   ☐ Login 
+   ☐ Register 
+☐ Is CVV (Credit Card) sent in clear text
+☐ Client Side Validation
+☐ Critical Components
+☐ Hidden Fields
+☐ source Code Disclosure
+
+3.  Authentication and Authorization
+☐ Credentials sent in secure way
+☐ User enumeration
+☐ Password Control
+☐ CAPTCHA present
+☐ Password Remember
+☐ Login after regisration
+☐ Email activation required
+☐ Concurrent login enabled
+☐ Horizontal privilege checking
+☐ Vertical privilege checking
+
+4. Session management
+☐ SessionID random-ness / prediction
+☐ Session established methodology
+☐ Cookie Settings
+☐ Logout Functionality
+☐ Session Timeout
+☐ Session Fixation
+☐ CSRF
+☐ SessionID state
+☐ Logout and cookie edit
+☐ Caching issues
+
+5. XSS
+☐ Check output encoding
+☐ XSS in url parameters
+☐ XSS in input fields
+☐ input validation
+☐ input sanitization
+☐ Server side Validation
+
+6. SQL Injection
+☐ Check for char blacklist
+☐ Parameterized queries
+☐ Different Encoding
+☐ URL Encoding
+☐ Base64 Encoding
+☐ Blind SQL Injection
+☐ Automated SQL Inkection
+
+7. Other Injection Techniques
+☐ LDAP Injection
+☐ HTML Injection
+☐ XML Injection
+☐ XML Injection
+☐ XPATH Injection
+☐ HTTP Splitting
+☐ CMD Injection
+☐ CSRF Injection
+☐ Char blacklist
+☐ XXE
+
+8. Other
+☐ search Commands
+☐ Parameter tampering
+☐ Host Injection
+☐ View State (.NET)
+☐ URL Redirection (Open Redirect)
+☐ Lockout users
+☐ WebService testing (API)
+☐ Email Enumeration
+☐ JSON/JS Hijacking
+☐ Content Caching enabled
+☐ Spoofing/impersonating
+☐ User of EVAL
+☐ File Upload
+☐ public information
+☐ configuration file review
+☐ encoder/decoder
+☐ Local File Inclusion
+☐ Remote File Inclusion
+☐ SPF Missing FLag
+☐ CORS
+☐ SSRF
+☐ CSRD
+☐ Hostile subdomain Takeover
+☐ ClickJacking
