@@ -1,0 +1,29 @@
+List of Vulnerabilities 
+
+Remote Shell /  Command Execution
+RCE - Remote Code Execution
+SQL Injection
+Significant Authentication Bypass
+LFI - Local File Inclusion
+SQL Injection (blind)
+IDOR - Insecure Direct Object Reference
+SSRF - Server Side Request Forgery
+XSS - Cross Site Scripting
+Other XSS
+CSRF - Cross Site Request Forgery
+Cross Domain Leakage
+Information Disclosure
+Software Version Disclosure
+Self XSS / XSS without Impact
+Missing SFP or DMARC records
+HttpOnly and Secure Cookie flags
+SSL/TLS relevant
+Password and Acccont recovery policies
+Session Timeout
+Session Hijaking (cookie reuse)
+Missing X-Frame or X-Content Headers
+Account Enumeration
+Click-Jacking
+Rate Limiting
+Downloading Video
+Confirmation email (aything related)
