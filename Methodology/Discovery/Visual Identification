@@ -1,0 +1,14 @@
+* 
+• Got to get an idea of what is up and unique
+• We also don't know what protocol these are on (HTTP vs HTTPS, ++)
+
+
+############################
+#       EyeWitness         #
+############################
+
+GitHub: ChrisTruncer/EyeWitness
+
+CMD: python EyeWitness.py --prepend-https -f ../domain/tesla.com.lst --all-protocols --headless
+
+
