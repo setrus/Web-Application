@@ -1,0 +1,18 @@
+#Discovery
+TLD -  Top Level Domains
+--------------------------
+
+ASN -  autonomous system number : one of the only sites that will allow you to show IP by search..
+http://bhp.he.net 
+
+
+ARIN & RIPE
+https://whois.arin.net/UI/query.do
+https://apps.db.ripe.net/DB-web-ui/#/Fulltextsearch 
+
+Rev whois   Gives you that domain and gives what rezolves..
+https://reverse.report
+
+
+Shodan Organization
+https://www.shodan.io/search?query=org%3A%22TESLA+MOTORS%22
