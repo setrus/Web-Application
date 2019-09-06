@@ -1,0 +1,31 @@
+2. Discovering New Targets (Brands and TLDs)
+
+Brand Discovery: |-A. - Aquisitions :                                | * Wikipedia
+                 |                                                   | * Crunchbase Aquisitions section
+                 |                                                                    
+                 |-B. - Linked Discovery:                              * Burp Spidering
+                 | 
+                 |-C. - Weighted LInk and Revers Tracker analysis:   | * DomLInk
+                                                                     | * Buildwith
+                                                                                               
+2.B. - Linked Discovery - With Burp
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Scanner :  Live Passive Scanning -> Don't scan.
+Spider > Options > Application Logins > Handle at ordinary form 
+In Scope > Use Advanced scope control > Add URL to include in scope > Host and IP range :  TESTME >OK > Yes
+
+Browser Manually those sites
+
+After manuall browsing the site
+Target > SELECT ALL URL and select SPIDER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2.C. DomLink
+CMD : pyhton domLink.py -d vip.com -o vip.out.txt
+
+OTHERS
+* Trademark in Google: “Tesla © 2017”, "Tesla © 2018" INURL: tesla.com
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
