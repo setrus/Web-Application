@@ -26,4 +26,5 @@ This repository includes:
     - SSRF
     - CMD Injection
     - XXE
+    - Open Redirect
 - Vulnerabilities =  A list of vulnerabilities found on different BugBounty Programs, some are eligible and some are ooo.
