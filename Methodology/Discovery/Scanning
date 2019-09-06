@@ -1,0 +1,17 @@
+Scanning the target hosts:
+
+Tools : masscan
+It is faster than Nmap..But doesn't rezolve names.
+
+AFTER SCANNING - BruteSpray Credential Bruteforce
+
+1. masscan
+
+2. Nmap service scan -oG
+
+3. BruteSpray Credentials Bruteforce
+
+BRUTESPRAY : https://github.com/x90skysn3k/brutespray
+
+CMD:  poython brutespray.py --file nmap.gmap -U /user/share/wordlist/user.txt -P /usr/share/wordlist.txt --threads 5 --hosts 5
+//it uses medusa 
