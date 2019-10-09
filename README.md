@@ -1,5 +1,5 @@
-# Bug-Bonty #
-Bug Bounty Worksheet
+# Web Application #
+Web Application Worksheet
 
 
 #Information gathered in order to be get into the bug bounty world.
